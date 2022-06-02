@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+  --bs-font-sans-serif: 'Open Sans', sans-serif;
+}
+
+$blue: #407bff;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #d63384;
+$red: #c3423f;
+$orange: #fd7e14;
+$yellow: #FFC700;
+$green: #0ead69;
+$teal: #20c997;
+$cyan: #0dcaf0;
+
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #8e9ba2;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+$primary: $blue;
+$secondary: #6C6C6C;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-900;
+
+$body-bg: #525252;
+$body-color: $white;
+$bs-font-open-sans: 'Open Sans', sans-serif;
+
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'success': $success,
+  'info': $info,
+  'warning': $warning,
+  'danger': $danger,
+  'light': $light,
+  'dark': $dark,
+);
+
+// $border-radius: 0.5rem;
+// $border-radius-sm: 1rem;
+// $border-radius-lg: 1.3rem;
+// $border-radius-pill: 50rem;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  border: 0;
+   font-family: $bs-font-open-sans !important;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@import '~bootstrap/scss/bootstrap.scss';
